@@ -7,7 +7,7 @@
 -   `build` - source code compiled in FunC.
 -   `tests` - tests for the contract, written in Typescript
 -   `scripts`
--      `getStats.ts` - script to get some statistics of the past draws (recent draw result, total number of draws/wins and etc).
+- `getStats.ts` - script to get some statistics of the past draws (recent draw result, total number of draws/wins and etc).
 
 ## Contract info
 
