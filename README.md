@@ -24,7 +24,7 @@ https://docs.ton.org/develop/smart-contracts/guidelines/random-number-generation
 Contract recieves the following messages:
 -   `donation` - top up contract balance 
 -   `bet` - uses simple random number generation (using randomize_lt) 
--   'safe bet' - uses echo contract to complicate the substitution of the seed by validators, gas fees are higher in this case. 
+-   `safe bet` - uses echo contract to complicate the substitution of the seed by validators, gas fees are higher in this case. 
 - Safe bet should be at least 0.1 TON
 
 ## How to use
