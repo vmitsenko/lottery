@@ -11,7 +11,7 @@
 ## Contract info
 
 - `EQC9aSK1F7md2U8fGRnsvB9hm0IWPs0-wjOeUcnLvzMGBTfE` - main contract address. Main contract is deployed on the testnet, basechain.
-- 'Ef-z--k3eVXf1UGE2YO0hArWaC8bMEs9uWc-PJ95DSHeRM_5` - echo contract address. Echo contract is deployed on the testnet, masterchain.
+- `Ef-z--k3eVXf1UGE2YO0hArWaC8bMEs9uWc-PJ95DSHeRM_5` - echo contract address. Echo contract is deployed on the testnet, masterchain.
 
 Echo contract is used to implement a safer way of random numbers generation 
 https://docs.ton.org/develop/smart-contracts/guidelines/random-number-generation#main-contract-in-any-workchain
