@@ -1,25 +1,30 @@
 # lottery
 
+
 ## Project structure
 
--   `contracts` - source code of all the smart contracts of the project and their dependencies.
--   `wrappers` - wrapper classes (implementing `Contract` from ton-core) for the contracts, including any [de]serialization primitives and compilation functions.
--   `tests` - tests for the contracts.
--   `scripts` - scripts used by the project, mainly the deployment scripts.
+-   `contracts` - source code of the main contract, written in TACT.
+-   `build` - source code compiled in FunC.
+-   `tests` - tests for the contract, written in Typescript
+-   `scripts`
+-      `getStats.ts` - script to get some statistics of the past draws (recent draw result, total number of draws/wins and etc).
 
 ## Contract info
 
+- `EQC9aSK1F7md2U8fGRnsvB9hm0IWPs0-wjOeUcnLvzMGBTfE` - main contract address. Main contract is deployed on the testnet, basechain.
+- 'Ef-z--k3eVXf1UGE2YO0hArWaC8bMEs9uWc-PJ95DSHeRM_5` - echo contract address. Echo contract is deployed on the testnet, masterchain.
 
-- `Address` - (testnet, basechain)
-- 
-  Recieves text messages:
+Echo contract is used to implement a safer way of random numbers generation 
+https://docs.ton.org/develop/smart-contracts/guidelines/random-number-generation#main-contract-in-any-workchain
 
+## Contract constants
+
+
+## Messages:
+Contract recieves the following messages:
 -   `donation` - top up contract balance 
--   `bet` - draw 
--   'safe bet' - reci 
--   `wrappers` - wrapper classes (implementing `Contract` from ton-core) for the contracts, including any [de]serialization primitives and compilation functions.
--   `tests` - tests for the contracts.
--   `scripts` - scripts used by the project, mainly the deployment scripts.
+-   `bet` - uses simple random number generation (using randomize_lt) 
+-   'safe bet' - uses echo contract to complicate the substitution of the seed by validators, require more gas cost. 
 
 
 ## How to use
