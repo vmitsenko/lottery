@@ -14,6 +14,7 @@
 - `Ef-z--k3eVXf1UGE2YO0hArWaC8bMEs9uWc-PJ95DSHeRM_5` - echo contract address. Echo contract is deployed on the testnet, **MasterChain**.
 
 Echo contract is used to implement a safer way of random numbers generation 
+
 https://docs.ton.org/develop/smart-contracts/guidelines/random-number-generation#main-contract-in-any-workchain
 
 - Gas and transaction fees are paid by the sender. In case of winning, the sender receives 2 * BET - (gas + transaction cost).
