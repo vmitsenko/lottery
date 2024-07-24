@@ -35,17 +35,17 @@ Contract can recieve the following messages:
 https://testnet.tonscan.org/address/EQC9aSK1F7md2U8fGRnsvB9hm0IWPs0-wjOeUcnLvzMGBTfE
 - Alternatively, use getStats.ts script to get some statistics
 
-Draws:
-16
-
-Wins:
-8
-
-Recent draw = win:
-true
-
-Recent draw = safe:
-true
+    Draws:
+    16
+    
+    Wins:
+    8
+    
+    Recent draw = win:
+    true
+    
+    Recent draw = safe:
+    true
 
 ### Build
 
