@@ -18,6 +18,7 @@ Echo contract is used to implement a safer way of random numbers generation
 https://docs.ton.org/develop/smart-contracts/guidelines/random-number-generation#main-contract-in-any-workchain
 
 - Gas and transaction fees are paid by the sender. In case of winning, the sender receives 2 * BET - (gas + transaction cost).
+- If 2 * BET > BALANCE - minimum allowed balance => transaction will be declined
 - Contract's minimum ton balance is set to 0.3 TON.
 
 ## Messages:
